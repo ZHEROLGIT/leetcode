@@ -25,8 +25,7 @@ public class ReverseVowelsofaString {
             char ci = s.charAt(i);
             char cj = s.charAt(j);
             if(!goals.contains(ci)){
-                result[i] = ci;
-                i++;
+                result[i++] = ci;
             }else if(!goals.contains(cj)){
                 result[j--] = cj;
             }else {
